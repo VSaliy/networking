@@ -9,12 +9,12 @@ import java.util.function.Supplier;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-import static packt.B04676_09_Code.GameElements.commands;
+import static com.example.packt.B04676_09_Code.GameElements.commands;
 
 public class FunctionalZork {
 
     private final Scanner scanner;
-    private packt.B04676_09_Code.Character character = null;
+    private com.example.packt.B04676_09_Code.Character character = null;
     private final FunctionalCommands fc;
     private final Command command = new Command();
 
@@ -67,7 +67,7 @@ public class FunctionalZork {
         scanner = new Scanner(System.in);
         fc = new FunctionalCommands();
         initializeGame();
-        character = new packt.B04676_09_Code.Character(GameElements.currentLocation);
+        character = new com.example.packt.B04676_09_Code.Character(GameElements.currentLocation);
     }
 
     public void initializeGame() {

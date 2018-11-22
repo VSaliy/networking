@@ -3,7 +3,7 @@ package com.example.packt.B04676_03_Code;
 import javafx.beans.binding.NumberBinding;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
-import packt.B04676_03_Code.Compose.CompositionFunction;
+import com.example.packt.B04676_03_Code.Compose.CompositionFunction;
 
 import java.time.LocalDateTime;
 import java.util.*;
